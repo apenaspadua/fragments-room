@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.CadastroFragment">
+
+    <EditText
+        android:id="@+id/campoDescricao"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:autofillHints=""
+        android:background="@drawable/text_custom"
+        android:ems="10"
+        android:hint="@string/descri_o"
+        android:inputType="textCapSentences"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/campoTipo"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/text_custom"
+        android:ems="10"
+        android:hint="@string/tipo"
+        android:importantForAutofill="no"
+        android:inputType="textCapSentences"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoDescricao"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/campoValor"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:autofillHints=""
+        android:background="@drawable/text_custom"
+        android:ems="10"
+        android:hint="@string/valor"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/campoTipo"
+        app:layout_constraintTop_toBottomOf="@+id/campoTipo"
+        tools:targetApi="o" />
+
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="116dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_round"
+        android:padding="10dp"
+        android:text="@string/feito"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoValor" />
+
+    <ImageView
+        android:id="@+id/image_cadastro_id"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/todo"
+        android:src="@mipmap/images" />
+
+</FrameLayout>

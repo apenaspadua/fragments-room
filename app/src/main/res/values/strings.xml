@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">DesafioAndroidParte4</string>
+    <string name="app_name">DesafioAndroid4.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cadastrar">Cadastrar</string>
+
+    <string name="descri_o">Descrição</string>
+    <string name="tipo">Tipo</string>
+    <string name="valor">Valor</string>
+    <string name="feito">Feito</string>
+    <string name="todo">TODO</string>
+    <string name="toast_select_photo">Selecione uma foto</string>
+
 </resources>
