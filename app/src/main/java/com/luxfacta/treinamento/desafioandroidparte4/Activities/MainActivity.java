@@ -3,6 +3,7 @@ package com.luxfacta.treinamento.desafioandroidparte4.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +19,8 @@ import com.luxfacta.treinamento.desafioandroidparte4.ModelDatabase.Despesas;
 import com.luxfacta.treinamento.desafioandroidparte4.R;
 
 
+
+
 public class MainActivity extends AppCompatActivity implements INotifyInsert {
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -30,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements INotifyInsert {
         setContentView(R.layout.activity_main);
 
         verifyUpdate();
+
 
         viewPager = findViewById(R.id.vp_pagina_id);
         tabLayout = findViewById(R.id.tabLayout);

@@ -11,5 +11,6 @@
     <string name="feito">Feito</string>
     <string name="todo">TODO</string>
     <string name="toast_select_photo">Selecione uma foto</string>
+    <string name="por_favor_aguarde">Por favor aguarde...</string>
 
 </resources>
