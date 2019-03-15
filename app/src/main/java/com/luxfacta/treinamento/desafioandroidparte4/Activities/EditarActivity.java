@@ -132,7 +132,7 @@ public class EditarActivity extends AppCompatActivity implements Serializable {
             campoDescricao.setText("");
             campoTipo.setText("");
             campoValor.setText("");
-            Drawable drawable = ContextCompat.getDrawable(EditarActivity.this, R.mipmap.images);
+            Drawable drawable = ContextCompat.getDrawable(EditarActivity.this, R.mipmap.camera);
             imagem.setImageDrawable(drawable);
             Toast.makeText(EditarActivity.this, "Salvo com sucesso!", Toast.LENGTH_SHORT).show();
             return;

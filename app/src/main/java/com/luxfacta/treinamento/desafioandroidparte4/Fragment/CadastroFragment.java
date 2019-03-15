@@ -134,7 +134,7 @@ public class CadastroFragment extends Fragment {
             campoDescricao.setText("");
             campoTipo.setText("");
             campoValor.setText("");
-            Drawable drawable = ContextCompat.getDrawable(getContext(), R.mipmap.images);
+            Drawable drawable = ContextCompat.getDrawable(getContext(), R.mipmap.camera);
             imagem.setImageDrawable(drawable);
             Toast.makeText(getContext(), "Salvo com sucesso!", Toast.LENGTH_SHORT).show();
             return;
